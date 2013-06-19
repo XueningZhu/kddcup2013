@@ -1,0 +1,22 @@
+
+model submission:
+------------------------------------------------------------------------------------------------------
+1 the rda folder:
+The stops.rda is stop words from the web and the R tm package, please set it under the default path ~/kdd_data/rda 
+
+2 the get_data folder (run R files in the following order below)
+read_sql.R: read the table from postgresql to rda
+keywords.R: split keywords in paper
+title_zhu.R: split keywords in paper
+Orgnames.R: split organization(journal/conference) names in journal/conference
+get_rda.R: get data set used for list calculation
+get_list.R: get list for feature calculation
+(functions.R): functions to be used. Please set it under the default path
+
+3 combine_features
+data_preparation.R the first & second combination of features (train_new/train_new_dup0/valid_new)
+get_laterdata: for later combinations (the latest version is train_new4/train_new4_dup0/valid_new4)
+
+--------------------------------------------------------------------------------------------------------
+ps : for later new features of python 
+refer to the py_new_features.R for an example

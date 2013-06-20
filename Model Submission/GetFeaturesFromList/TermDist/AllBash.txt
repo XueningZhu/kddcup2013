@@ -1,0 +1,18 @@
+nohup Rscript reAP.R &> reAP_log &
+ps 10472
+nohup Rscript reAP.PP.R &> reAP.PP_log &
+ps 9936
+nohup Rscript reAP.PC.CP.R &> reAP.PC.CP_log &
+ps 9942
+nohup Rscript reAP.PJ.JJ.JP.R &> reAP.PJ.JJ.JP_log &
+ps 9991
+nohup Rscript reAP.PC.CC.CP.R &> reAP.PC.CC.CP_log &
+ps 10093
+nohup Rscript reAP.PJ.JP1.R &> reAP.PJ.JP1_log &
+ps 10951
+nohup Rscript reAP.PJ.JP2.R &> reAP.PJ.JP2_log &
+ps 11068
+nohup Rscript reAP.PJ.JP3.R &> reAP.PJ.JP3_log &
+ps 11105
+nohup Rscript reAP.PJ.JP4.R &> reAP.PJ.JP4_log &
+ps 11208
